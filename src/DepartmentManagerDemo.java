@@ -38,7 +38,8 @@ public class DepartmentManagerDemo {
         System.out.println("\nAfter removing Operations department:");
         System.out.println(departmentManagerRecords);
 
-
+        // display total number of records
+        System.out.println("\nTotal number of departments: " + departmentManagerRecords.size());
 
     }
 }
