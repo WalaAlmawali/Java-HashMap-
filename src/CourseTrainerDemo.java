@@ -24,5 +24,20 @@ public class CourseTrainerDemo {
         //  check if a course exists
         System.out.println("\n is Security exist in HashMap? " +courseTrainerRecords.containsKey("Security"));
 
+        // Update the trainer of one course with same key
+        courseTrainerRecords.put("Cyber Security", "Dr. Khalid");
+
+        //  Display all elements in the HashMap
+        System.out.println(  courseTrainerRecords);
+
+      // Remove one course record
+        courseTrainerRecords.remove("Data Structures");
+
+        // Display the HashMap after removal
+        System.out.println("\nAfter removing 'Database Systems':");
+        System.out.println(courseTrainerRecords);
+
+        // display total number of records
+        System.out.println("\nTotal number of courses: " + courseTrainerRecords.size());
     }
 }
