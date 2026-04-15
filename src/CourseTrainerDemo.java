@@ -15,10 +15,14 @@ public class CourseTrainerDemo {
         //  Display all elements in the HashMap
         System.out.println(  courseTrainerRecords);
 
+        //display the trainer of one specific course
+        System.out.println("\nTrainer for 'Java Programming': " + courseTrainerRecords.get("Java Programming"));
         
+        //  check if a course exists
+        System.out.println("\n is Web Development exist in HashMap? " +courseTrainerRecords.containsKey("Web Development"));
 
-
-
+        //  check if a course exists
+        System.out.println("\n is Security exist in HashMap? " +courseTrainerRecords.containsKey("Security"));
 
     }
 }
