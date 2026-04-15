@@ -12,5 +12,8 @@ public class DepartmentManagerDemo {
         departmentManagerRecords.put("Marketing", "Khalid Al-Riyami");
         departmentManagerRecords.put("Operations", "Fatima Al-Nabhani");
 
+        // Display all elements in the HashMap
+        System.out.println(departmentManagerRecords);
+
     }
 }
