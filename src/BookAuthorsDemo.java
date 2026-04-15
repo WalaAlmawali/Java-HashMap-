@@ -30,5 +30,15 @@ public class BookAuthorsDemo {
         System.out.println("\nAfter updating 'The Hobbit':");
         System.out.println(bookAuthorRecords);
 
+        // Remove one book record
+        bookAuthorRecords.remove("Pride and Prejudice");
+
+        // Display the HashMap after removal
+        System.out.println("\nAfter removing 'Pride and Prejudice':");
+        System.out.println(bookAuthorRecords);
+
+        // Use size() to display total number of records left
+        System.out.println("\nTotal number of books: " + bookAuthorRecords.size());
+
     }
 }
