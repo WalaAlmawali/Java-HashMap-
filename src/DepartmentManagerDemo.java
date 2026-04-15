@@ -31,6 +31,14 @@ public class DepartmentManagerDemo {
         System.out.println("\nAfter updating Marketing department:");
         System.out.println(departmentManagerRecords);
 
+        // Remove one department record
+        departmentManagerRecords.remove("Operations");
+
+        // Display the HashMap after removal
+        System.out.println("\nAfter removing Operations department:");
+        System.out.println(departmentManagerRecords);
+
+
 
     }
 }
