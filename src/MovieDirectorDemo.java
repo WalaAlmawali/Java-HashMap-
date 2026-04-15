@@ -23,7 +23,22 @@ public class MovieDirectorDemo {
         // Check a movie that does NOT exist
         System.out.println("\n is Interstellar exist in the map? " + movieDirectorRecords.containsKey("Interstellar"));
 
+        // Update the director of one movie using with same key
+        movieDirectorRecords.put("Avatar", "James Cameron (Updated)");
 
+      // Display the updated HashMap
+        System.out.println("\nAfter updating director of 'Avatar':");
+        System.out.println(movieDirectorRecords);
+
+        // Remove one movie record using remove()
+        movieDirectorRecords.remove("Jurassic Park");
+
+        // Display the HashMap after removal
+        System.out.println("\nAfter removing 'Jurassic Park':");
+        System.out.println(movieDirectorRecords);
+
+        //  display total number of records
+        System.out.println("\nTotal number of movies: " + movieDirectorRecords.size());
 
     }
 }
