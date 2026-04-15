@@ -23,6 +23,12 @@ public class BookAuthorsDemo {
         //  check a book that does NOT exist
         System.out.println("\nis The Da Vinci Code exist in the map? " + bookAuthorRecords.containsKey("The Da Vinci Code"));
 
+        // Update the author of one book  with the same key
+        bookAuthorRecords.put("The Hobbit", "J.R.R. Tolkien (Updated Edition)");
+
+        // Display the updated HashMap
+        System.out.println("\nAfter updating 'The Hobbit':");
+        System.out.println(bookAuthorRecords);
 
     }
 }
