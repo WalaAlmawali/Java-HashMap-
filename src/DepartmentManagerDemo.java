@@ -18,5 +18,12 @@ public class DepartmentManagerDemo {
         // display the manager of one specific department
         System.out.println("\nManager of IT Department: " + departmentManagerRecords.get("IT Department"));
 
+        // check if a department exists
+        System.out.println("is Finance exist in the map?" +departmentManagerRecords.containsKey("Finance") );
+
+        // check department that does NOT exist
+        System.out.println("is Legal exist in the map?" +departmentManagerRecords.containsKey("Legal") );
+
+
     }
 }
