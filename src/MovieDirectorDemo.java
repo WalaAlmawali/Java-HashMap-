@@ -17,5 +17,13 @@ public class MovieDirectorDemo {
        //  display the director of one specific movie
         System.out.println("\n Director of 'Inception': " + movieDirectorRecords.get("Inception"));
 
+        // check if a movie exists
+        System.out.println("\n is Titanic exist in the map? " + movieDirectorRecords.containsKey("Titanic"));
+
+        // Check a movie that does NOT exist
+        System.out.println("\n is Interstellar exist in the map? " + movieDirectorRecords.containsKey("Interstellar"));
+
+
+
     }
 }
