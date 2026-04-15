@@ -14,5 +14,17 @@ public class EmployeeMapDemo {
 
         //  Display all elements in the HashMap
         System.out.println(employeeRecords);
+
+      // display the name of one specific employee using ID
+        System.out.println("\nEmployee with ID 1003: " + employeeRecords.get(1003));
+
+      //  check if an employee ID exists
+        System.out.println("\nis ID(1001) exist in the map? " + employeeRecords.containsKey(1001));
+
+       //  check an ID that does not exist
+        System.out.println("\nis ID(1006) exist in the map? " + employeeRecords.containsKey(1006));
+
+
+
     }
 }
