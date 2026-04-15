@@ -15,5 +15,8 @@ public class DepartmentManagerDemo {
         // Display all elements in the HashMap
         System.out.println(departmentManagerRecords);
 
+        // display the manager of one specific department
+        System.out.println("\nManager of IT Department: " + departmentManagerRecords.get("IT Department"));
+
     }
 }
