@@ -13,6 +13,16 @@ public class BookAuthorsDemo {
 
         //  Display all elements in the HashMap
         System.out.println( bookAuthorRecords);
-        
+
+        // display author of one specific book
+        System.out.println("\nAuthor of '1984': " + bookAuthorRecords.get("1984"));
+
+        //  check if a book exists
+        System.out.println("\nis Harry Potter exist in the map? " + bookAuthorRecords.containsKey("Harry Potter"));
+
+        //  check a book that does NOT exist
+        System.out.println("\nis The Da Vinci Code exist in the map? " + bookAuthorRecords.containsKey("The Da Vinci Code"));
+
+
     }
 }
