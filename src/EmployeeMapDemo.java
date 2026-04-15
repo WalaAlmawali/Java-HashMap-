@@ -24,7 +24,22 @@ public class EmployeeMapDemo {
        //  check an ID that does not exist
         System.out.println("\nis ID(1006) exist in the map? " + employeeRecords.containsKey(1006));
 
+        // Update the name of one employee with the same key
+        employeeRecords.put(1004, "Fatima Al-Zahra (Updated)");
 
+        // Display the updated HashMap
+        System.out.println("\nAfter updating employee 1004:");
+        System.out.println(employeeRecords);
+
+        // Remove one employee record
+        employeeRecords.remove(1005);
+
+        // Display the HashMap after removal
+        System.out.println("\nAfter removing employee 1005:");
+        System.out.println(employeeRecords);
+
+        //  display total number of records left
+        System.out.println("\nTotal number of employees: " + employeeRecords.size());
 
     }
 }
