@@ -24,6 +24,13 @@ public class DepartmentManagerDemo {
         // check department that does NOT exist
         System.out.println("is Legal exist in the map?" +departmentManagerRecords.containsKey("Legal") );
 
+        // Update the manager of one department with same key
+        departmentManagerRecords.put("Marketing", "Nasser Al-Hinai (Updated)");
+
+        // Display the updated HashMap
+        System.out.println("\nAfter updating Marketing department:");
+        System.out.println(departmentManagerRecords);
+
 
     }
 }
